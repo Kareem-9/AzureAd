@@ -6,14 +6,12 @@
     <div style="width: 90%;text-align: center;">
         {{reportStatus}}
     </div>
-    <!-- Pdfurl is there display this content -->
+    <!-- Pdfurl is there, only display below content -->
     <div *ngIf="pdfUrl"> 
         <mat-card>
             <mat-card-content>
                 <object [data]="pdfUrl" type="application/pdf" style="min-height: 100vh;;width: 100vh;"></object>
             </mat-card-content>
         </mat-card>
-
     </div>
-
 </div>

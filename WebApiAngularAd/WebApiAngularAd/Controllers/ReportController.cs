@@ -27,7 +27,7 @@
         [HttpGet("[action]")]
         public IActionResult GetReportStatus()
         {
-            return Ok(new { status = @"Report Generated at - " + DateTime.Now.ToString("MM-dd-yyyy HH:mm:ss") });
+            return Ok(new { Status = @"Report Generated at - " + DateTime.Now.ToString("MM-dd-yyyy HH:mm:ss") });
         }
     }
 }

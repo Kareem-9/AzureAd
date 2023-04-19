@@ -5,6 +5,7 @@ import { Profile } from './profile.model';
 const GRAPH_ENDPOINT = 'https://graph.microsoft.com/v1.0/me';
 const GRAPH_ENDPOINT_PIC = 'https://graph.microsoft.com/v1.0/me/photo/$value';
 const REPORTS_API_BASE_URI = 'https://localhost:44375/api/'
+
 @Injectable({
   providedIn: 'root'
 })

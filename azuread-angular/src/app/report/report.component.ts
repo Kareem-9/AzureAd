@@ -30,14 +30,14 @@ reportStatus?:string
     },
     (error:HttpErrorResponse)=>{
       if(error.status==401 || error.status==403){
-        this.snackBar.open('You are unauthorized! Only for Managers')
+        this.snackBar.open('You are unauthorized!')
       }
     })
   }
   getReportStatus(){
     this.azureadservice.getReportStatus().subscribe
     (response=>{
-      this.reportStatus = response.Status
+      this.reportStatus = response.status
     })
   }
 

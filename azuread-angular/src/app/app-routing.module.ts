@@ -15,7 +15,7 @@ const routes: Routes = [
     path:'reports',
     component:ReportComponent,
     canActivate:[MsalGuard]
-  },
+  }, 
   {
     path:'',
     component:HomeComponent
