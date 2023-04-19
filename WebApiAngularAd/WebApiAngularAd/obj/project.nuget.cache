@@ -1,8 +1,171 @@
 {
   "version": 2,
-  "dgSpecHash": "8jfQiv+/dW9tAxZMGxsiobkSgZk8PuTJZGn/nxvbD2qq/F9jjIb+3ds00/1iGSvfI230uLt3L/TL6UPQartPAw==",
+  "dgSpecHash": "fiyPZIlUEeInQ+pGfSel+9ghBVWAO+n+GoaCjmBBVu3jNlfvTQ8U4t662LeeMST6w5v2fEuXHTl1Rsbw5hbhaw==",
   "success": true,
   "projectFilePath": "D:\\AzureAD\\AzureAd\\WebApiAngularAd\\WebApiAngularAd\\WebApiAngularAd.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
+  "expectedPackageFiles": [
+    "C:\\Users\\kareem.shaik\\.nuget\\packages\\azure.core\\1.6.0\\azure.core.1.6.0.nupkg.sha512",
+    "C:\\Users\\kareem.shaik\\.nuget\\packages\\azure.identity\\1.3.0\\azure.identity.1.3.0.nupkg.sha512",
+    "C:\\Users\\kareem.shaik\\.nuget\\packages\\azure.security.keyvault.certificates\\4.1.0\\azure.security.keyvault.certificates.4.1.0.nupkg.sha512",
+    "C:\\Users\\kareem.shaik\\.nuget\\packages\\azure.security.keyvault.secrets\\4.1.0\\azure.security.keyvault.secrets.4.1.0.nupkg.sha512",
+    "C:\\Users\\kareem.shaik\\.nuget\\packages\\microsoft.aspnet.webapi.client\\4.0.20710\\microsoft.aspnet.webapi.client.4.0.20710.nupkg.sha512",
+    "C:\\Users\\kareem.shaik\\.nuget\\packages\\microsoft.aspnet.webapi.core\\4.0.20710\\microsoft.aspnet.webapi.core.4.0.20710.nupkg.sha512",
+    "C:\\Users\\kareem.shaik\\.nuget\\packages\\microsoft.aspnet.webapi.webhost\\4.0.20710\\microsoft.aspnet.webapi.webhost.4.0.20710.nupkg.sha512",
+    "C:\\Users\\kareem.shaik\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.18\\microsoft.aspnetcore.authentication.jwtbearer.3.1.18.nupkg.sha512",
+    "C:\\Users\\kareem.shaik\\.nuget\\packages\\microsoft.aspnetcore.authentication.openidconnect\\3.1.18\\microsoft.aspnetcore.authentication.openidconnect.3.1.18.nupkg.sha512",
+    "C:\\Users\\kareem.shaik\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.30\\microsoft.aspnetcore.cryptography.internal.3.1.30.nupkg.sha512",
+    "C:\\Users\\kareem.shaik\\.nuget\\packages\\microsoft.aspnetcore.dataprotection\\3.1.30\\microsoft.aspnetcore.dataprotection.3.1.30.nupkg.sha512",
+    "C:\\Users\\kareem.shaik\\.nuget\\packages\\microsoft.aspnetcore.dataprotection.abstractions\\3.1.30\\microsoft.aspnetcore.dataprotection.abstractions.3.1.30.nupkg.sha512",
+    "C:\\Users\\kareem.shaik\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.0.0\\microsoft.bcl.asyncinterfaces.1.0.0.nupkg.sha512",
+    "C:\\Users\\kareem.shaik\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\kareem.shaik\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\kareem.shaik\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\3.1.30\\microsoft.extensions.caching.abstractions.3.1.30.nupkg.sha512",
+    "C:\\Users\\kareem.shaik\\.nuget\\packages\\microsoft.extensions.caching.memory\\3.1.30\\microsoft.extensions.caching.memory.3.1.30.nupkg.sha512",
+    "C:\\Users\\kareem.shaik\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.30\\microsoft.extensions.configuration.3.1.30.nupkg.sha512",
+    "C:\\Users\\kareem.shaik\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.30\\microsoft.extensions.configuration.abstractions.3.1.30.nupkg.sha512",
+    "C:\\Users\\kareem.shaik\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.1.30\\microsoft.extensions.configuration.binder.3.1.30.nupkg.sha512",
+    "C:\\Users\\kareem.shaik\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.30\\microsoft.extensions.dependencyinjection.3.1.30.nupkg.sha512",
+    "C:\\Users\\kareem.shaik\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.30\\microsoft.extensions.dependencyinjection.abstractions.3.1.30.nupkg.sha512",
+    "C:\\Users\\kareem.shaik\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\3.1.30\\microsoft.extensions.fileproviders.abstractions.3.1.30.nupkg.sha512",
+    "C:\\Users\\kareem.shaik\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\3.1.30\\microsoft.extensions.hosting.abstractions.3.1.30.nupkg.sha512",
+    "C:\\Users\\kareem.shaik\\.nuget\\packages\\microsoft.extensions.http\\3.1.3\\microsoft.extensions.http.3.1.3.nupkg.sha512",
+    "C:\\Users\\kareem.shaik\\.nuget\\packages\\microsoft.extensions.logging\\3.1.30\\microsoft.extensions.logging.3.1.30.nupkg.sha512",
+    "C:\\Users\\kareem.shaik\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.30\\microsoft.extensions.logging.abstractions.3.1.30.nupkg.sha512",
+    "C:\\Users\\kareem.shaik\\.nuget\\packages\\microsoft.extensions.options\\3.1.30\\microsoft.extensions.options.3.1.30.nupkg.sha512",
+    "C:\\Users\\kareem.shaik\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\3.1.30\\microsoft.extensions.options.configurationextensions.3.1.30.nupkg.sha512",
+    "C:\\Users\\kareem.shaik\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.30\\microsoft.extensions.primitives.3.1.30.nupkg.sha512",
+    "C:\\Users\\kareem.shaik\\.nuget\\packages\\microsoft.identity.abstractions\\3.1.0\\microsoft.identity.abstractions.3.1.0.nupkg.sha512",
+    "C:\\Users\\kareem.shaik\\.nuget\\packages\\microsoft.identity.client\\4.53.0\\microsoft.identity.client.4.53.0.nupkg.sha512",
+    "C:\\Users\\kareem.shaik\\.nuget\\packages\\microsoft.identity.client.extensions.msal\\2.16.5\\microsoft.identity.client.extensions.msal.2.16.5.nupkg.sha512",
+    "C:\\Users\\kareem.shaik\\.nuget\\packages\\microsoft.identity.web\\2.9.0\\microsoft.identity.web.2.9.0.nupkg.sha512",
+    "C:\\Users\\kareem.shaik\\.nuget\\packages\\microsoft.identity.web.certificate\\2.9.0\\microsoft.identity.web.certificate.2.9.0.nupkg.sha512",
+    "C:\\Users\\kareem.shaik\\.nuget\\packages\\microsoft.identity.web.certificateless\\2.9.0\\microsoft.identity.web.certificateless.2.9.0.nupkg.sha512",
+    "C:\\Users\\kareem.shaik\\.nuget\\packages\\microsoft.identity.web.diagnostics\\2.9.0\\microsoft.identity.web.diagnostics.2.9.0.nupkg.sha512",
+    "C:\\Users\\kareem.shaik\\.nuget\\packages\\microsoft.identity.web.tokenacquisition\\2.9.0\\microsoft.identity.web.tokenacquisition.2.9.0.nupkg.sha512",
+    "C:\\Users\\kareem.shaik\\.nuget\\packages\\microsoft.identity.web.tokencache\\2.9.0\\microsoft.identity.web.tokencache.2.9.0.nupkg.sha512",
+    "C:\\Users\\kareem.shaik\\.nuget\\packages\\microsoft.identitymodel.abstractions\\6.29.0\\microsoft.identitymodel.abstractions.6.29.0.nupkg.sha512",
+    "C:\\Users\\kareem.shaik\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.29.0\\microsoft.identitymodel.jsonwebtokens.6.29.0.nupkg.sha512",
+    "C:\\Users\\kareem.shaik\\.nuget\\packages\\microsoft.identitymodel.logging\\6.29.0\\microsoft.identitymodel.logging.6.29.0.nupkg.sha512",
+    "C:\\Users\\kareem.shaik\\.nuget\\packages\\microsoft.identitymodel.loggingextensions\\6.29.0\\microsoft.identitymodel.loggingextensions.6.29.0.nupkg.sha512",
+    "C:\\Users\\kareem.shaik\\.nuget\\packages\\microsoft.identitymodel.protocols\\6.29.0\\microsoft.identitymodel.protocols.6.29.0.nupkg.sha512",
+    "C:\\Users\\kareem.shaik\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\6.29.0\\microsoft.identitymodel.protocols.openidconnect.6.29.0.nupkg.sha512",
+    "C:\\Users\\kareem.shaik\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.29.0\\microsoft.identitymodel.tokens.6.29.0.nupkg.sha512",
+    "C:\\Users\\kareem.shaik\\.nuget\\packages\\microsoft.identitymodel.validators\\6.29.0\\microsoft.identitymodel.validators.6.29.0.nupkg.sha512",
+    "C:\\Users\\kareem.shaik\\.nuget\\packages\\microsoft.net.http\\2.0.20710\\microsoft.net.http.2.0.20710.nupkg.sha512",
+    "C:\\Users\\kareem.shaik\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.4\\microsoft.netcore.platforms.3.1.4.nupkg.sha512",
+    "C:\\Users\\kareem.shaik\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\kareem.shaik\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\kareem.shaik\\.nuget\\packages\\microsoft.web.infrastructure\\1.0.0\\microsoft.web.infrastructure.1.0.0.nupkg.sha512",
+    "C:\\Users\\kareem.shaik\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
+    "C:\\Users\\kareem.shaik\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\kareem.shaik\\.nuget\\packages\\newtonsoft.json\\7.0.1\\newtonsoft.json.7.0.1.nupkg.sha512",
+    "C:\\Users\\kareem.shaik\\.nuget\\packages\\swashbuckle\\5.6.0\\swashbuckle.5.6.0.nupkg.sha512",
+    "C:\\Users\\kareem.shaik\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\kareem.shaik\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\kareem.shaik\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\kareem.shaik\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
+    "C:\\Users\\kareem.shaik\\.nuget\\packages\\swashbuckle.core\\5.6.0\\swashbuckle.core.5.6.0.nupkg.sha512",
+    "C:\\Users\\kareem.shaik\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
+    "C:\\Users\\kareem.shaik\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.6.0\\system.diagnostics.diagnosticsource.4.6.0.nupkg.sha512",
+    "C:\\Users\\kareem.shaik\\.nuget\\packages\\system.drawing.common\\4.7.2\\system.drawing.common.4.7.2.nupkg.sha512",
+    "C:\\Users\\kareem.shaik\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.29.0\\system.identitymodel.tokens.jwt.6.29.0.nupkg.sha512",
+    "C:\\Users\\kareem.shaik\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\kareem.shaik\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\kareem.shaik\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
+    "C:\\Users\\kareem.shaik\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
+    "C:\\Users\\kareem.shaik\\.nuget\\packages\\system.security.cryptography.cng\\4.7.0\\system.security.cryptography.cng.4.7.0.nupkg.sha512",
+    "C:\\Users\\kareem.shaik\\.nuget\\packages\\system.security.cryptography.pkcs\\4.7.0\\system.security.cryptography.pkcs.4.7.0.nupkg.sha512",
+    "C:\\Users\\kareem.shaik\\.nuget\\packages\\system.security.cryptography.protecteddata\\4.5.0\\system.security.cryptography.protecteddata.4.5.0.nupkg.sha512",
+    "C:\\Users\\kareem.shaik\\.nuget\\packages\\system.security.cryptography.xml\\4.7.1\\system.security.cryptography.xml.4.7.1.nupkg.sha512",
+    "C:\\Users\\kareem.shaik\\.nuget\\packages\\system.security.permissions\\4.7.0\\system.security.permissions.4.7.0.nupkg.sha512",
+    "C:\\Users\\kareem.shaik\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
+    "C:\\Users\\kareem.shaik\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
+    "C:\\Users\\kareem.shaik\\.nuget\\packages\\system.text.encodings.web\\4.7.2\\system.text.encodings.web.4.7.2.nupkg.sha512",
+    "C:\\Users\\kareem.shaik\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512",
+    "C:\\Users\\kareem.shaik\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.2\\system.threading.tasks.extensions.4.5.2.nupkg.sha512",
+    "C:\\Users\\kareem.shaik\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512",
+    "C:\\Users\\kareem.shaik\\.nuget\\packages\\webactivatorex\\2.0.0\\webactivatorex.2.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.AspNet.WebApi.Client 4.0.20710' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.AspNet.WebApi.Client",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.AspNet.WebApi.Core 4.0.20710' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.AspNet.WebApi.Core",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.AspNet.WebApi.WebHost 4.0.20710' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.AspNet.WebApi.WebHost",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.Net.Http 2.0.20710' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.Net.Http",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.Web.Infrastructure 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.Web.Infrastructure",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Newtonsoft.Json 7.0.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "Newtonsoft.Json",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Swashbuckle.Core 5.6.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "Swashbuckle.Core",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'WebActivatorEx 2.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "WebActivatorEx",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }

@@ -12,6 +12,9 @@ namespace WebApiAngularAd
     using System.Collections.Generic;
     using System.Linq;
     using System.Threading.Tasks;
+    using Microsoft.Identity.Web;
+    using Microsoft.AspNetCore.Authentication.JwtBearer;
+    using Microsoft.OpenApi.Models;
 
     public class Startup
     {
@@ -25,7 +28,19 @@ namespace WebApiAngularAd
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+                .AddMicrosoftIdentityWebApi(Configuration);
             services.AddControllers();
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1",
+                    new OpenApiInfo 
+                    { 
+                        Title = "WebApi_AzureAd_Authentication",
+                        Version = "1.0", 
+                        Description = "Azure Ad"
+                    });
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -35,11 +50,18 @@ namespace WebApiAngularAd
             {
                 app.UseDeveloperExceptionPage();
             }
+            app.UseSwagger();
+            app.UseSwaggerUI(c => { c.SwaggerEndpoint("/swagger/v1/swagger.json", "1.0"); });
 
             app.UseHttpsRedirection();
+            app.UseCors(options =>
+            {
+                options.AllowAnyMethod().AllowAnyHeader().AllowAnyOrigin();
+            });
 
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
